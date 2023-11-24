@@ -13,14 +13,20 @@ npm run dev
 Сервер будет запущен на порту 8080.
 
 __РУЧКИ (Endpoints)__
-1. List - Получение PDF-файла с данными из базы данных 
+1. List - Получение PDF-файла с данными из базы данных
+   
     Метод: GET
+   
     Путь: /list
 
 3. Person - Регистрация пользователя в базе данных
-    Метод: POST
-    Путь: /person
-    Заголовки: Content-Type: application/json
+   
+   Метод: POST
+   
+   Путь: /person
+   
+   Заголовки: Content-Type: application/json
+   
    Тело запроса:
 
 {
