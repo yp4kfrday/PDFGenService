@@ -16,20 +16,30 @@ npm run dev
 
 Ручки (Endpoints)
 1. List - Получение PDF-файла с данными из базы данных
+
     Метод: GET
+
     Путь: /list
 
 2. Person - Регистрация пользователя в базе данных
+
     Метод: POST
     Путь: /person
+
     Заголовки: Content-Type: application/json
+
     Тело запроса:
+
 {
+
   "name": "Имя",
+
   "surname": "Фамилия"
+
 }
 
 Пример cURL-запроса:
+
 curl -X POST -H "Content-Type: application/json" -d '{"name": "Имя", "surname": "Фамилия"}' http://localhost:8080/person
 
 Зависимости
