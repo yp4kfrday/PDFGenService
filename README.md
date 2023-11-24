@@ -22,10 +22,8 @@ npm run dev
 3. Person - Регистрация пользователя в базе данных
     Метод: POST
     Путь: /person
-
     Заголовки: Content-Type: application/json
-
-    Тело запроса:
+   Тело запроса:
 
 {
 
