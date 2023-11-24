@@ -4,7 +4,7 @@ git clone https://github.com/yp4kfrday/MicroservicePDF.git
 
 npm install
 
-НАСТРОЙКА БД
+__НАСТРОЙКА БД__
 
 Прежде чем начать использовать микросервис, убедитесь, что у вас есть MySQL сервер и создайте базу данных. Затем отредактируйте файл config.js, указав параметры подключения к вашей базе данных.
 
@@ -14,7 +14,7 @@ npm run dev
 
 Сервер будет запущен на порту 8080.
 
-Ручки (Endpoints)
+__РУЧКИ (Endpoints)__
 1. List - Получение PDF-файла с данными из базы данных 
     Метод: GET
     Путь: /list
@@ -37,7 +37,7 @@ npm run dev
 
 curl -X POST -H "Content-Type: application/json" -d '{"name": "Имя", "surname": "Фамилия"}' http://localhost:8080/person
 
-Зависимости
+__Зависимости__
 
 Проект использует следующие зависимости:
 
