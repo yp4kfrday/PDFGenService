@@ -1,7 +1,5 @@
 # PDFGenService
 
-git clone [https://github.com/yp4kfrday/MicroservicePDF.git](https://github.com/yp4kfrday/PDFGenService)
-
 npm install
 
 __НАСТРОЙКА БД__
