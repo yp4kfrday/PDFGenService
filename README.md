@@ -1,6 +1,6 @@
 # PDFGenService
 
-git clone https://github.com/yp4kfrday/MicroservicePDF.git
+git clone [https://github.com/yp4kfrday/MicroservicePDF.git](https://github.com/yp4kfrday/PDFGenService)
 
 npm install
 
